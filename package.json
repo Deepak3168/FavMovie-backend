@@ -1,0 +1,19 @@
+{
+  "name": "favmovies",
+  "version": "1.0.0",
+  "description": "A website that allows users to store their favourite movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak3168/FavMov.git"
+  },
+  "author": "deepak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deepak3168/FavMov/issues"
+  },
+  "homepage": "https://github.com/Deepak3168/FavMov#readme"
+}
