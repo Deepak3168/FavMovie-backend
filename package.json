@@ -4,7 +4,8 @@
   "description": "A website that allows users to store their favourite movies",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Deepak3168/FavMov/issues"
   },
-  "homepage": "https://github.com/Deepak3168/FavMov#readme"
+  "homepage": "https://github.com/Deepak3168/FavMov#readme",
+  "dependencies": {
+    "vercel": "^34.2.4"
+  }
 }
