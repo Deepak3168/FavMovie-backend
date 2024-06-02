@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A website that allows users to store their favourite movies",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "test": "test",
     "start": "node index.js"

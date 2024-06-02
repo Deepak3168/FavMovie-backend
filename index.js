@@ -29,8 +29,6 @@ mongoose.connect(MONGODB_URI, {
   logger.error('Database connection error:', err);
 });
 
-
-
 logger.info("Database connected")
 
 const PORT = process.env.PORT || 5000;
