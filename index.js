@@ -18,7 +18,7 @@ app.use('/api/movies', movieRoutes);
 
 
 
-mongoose.connect(uri, {
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
