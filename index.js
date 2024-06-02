@@ -18,10 +18,18 @@ app.use('/api/movies', movieRoutes);
 
 
 
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(uri, {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
+  useUnifiedTopology: true
+})
+.then(() => {
+  logger.info('Database connected');
+})
+.catch((err) => {
+  logger.error('Database connection error:', err);
 });
+
+
 
 logger.info("Database connected")
 
